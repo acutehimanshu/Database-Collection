@@ -1,86 +1,83 @@
 # Database-Collection
 
-List of database 
-
 Database Market Overview
 
 Below is a curated list of databases widely used in the market. Please note that the database landscape is dynamic, and new databases may emerge over time. Always check the latest information from reliable sources when researching databases for your specific needs.
 
-Relational Databases:
+## Relational Databases:
+- MySQL
+- PostgreSQL
+- Oracle Database
+- Microsoft SQL Server
+- SQLite
 
-MySQL
-PostgreSQL
-Oracle Database
-Microsoft SQL Server
-SQLite
-NoSQL Databases:
+## NoSQL Databases:
+- MongoDB
+- Cassandra
+- Couchbase
+- Redis
+- Neo4j
 
-MongoDB
-Cassandra
-Couchbase
-Redis
-Neo4j
-NewSQL Databases:
+## NewSQL Databases:
+- Google Spanner
+- CockroachDB
 
-Google Spanner
-CockroachDB
-In-Memory Databases:
+## In-Memory Databases:
+- Redis
+- Memcached
 
-Redis
-Memcached
-Time-Series Databases:
+## Time-Series Databases:
+- InfluxDB
+- OpenTSDB
 
-InfluxDB
-OpenTSDB
-Graph Databases:
+## Graph Databases:
+- Neo4j
+- Amazon Neptune
+- ArangoDB
 
-Neo4j
-Amazon Neptune
-ArangoDB
-Document Stores:
+## Document Stores:
+- MongoDB
+- CouchDB
+- RavenDB
 
-MongoDB
-CouchDB
-RavenDB
-Columnar Databases:
+## Columnar Databases:
+- Apache Cassandra
+- HBase
 
-Apache Cassandra
-HBase
-Search Engines:
+## Search Engines:
+- Elasticsearch
+- Apache Solr
 
-Elasticsearch
-Apache Solr
-Cloud Databases:
+## Cloud Databases:
+- Amazon Aurora
+- Google Cloud Firestore
+- Microsoft Azure Cosmos DB
 
-Amazon Aurora
-Google Cloud Firestore
-Microsoft Azure Cosmos DB
-Object-Oriented Databases:
+## Object-Oriented Databases:
+- db4o
+- ObjectDB
 
-db4o
-ObjectDB
-Embedded Databases:
+## Embedded Databases:
+- SQLite
+- H2 Database Engine
 
-SQLite
-H2 Database Engine
-Big Data Databases:
+## Big Data Databases:
+- Apache Hadoop (HDFS)
+- Apache Hive
+- Apache HBase
 
-Apache Hadoop (HDFS)
-Apache Hive
-Apache HBase
-In-Memory Analytics Databases:
+## In-Memory Analytics Databases:
+- SAP HANA
+- Amazon Redshift (partly in-memory)
 
-SAP HANA
-Amazon Redshift (partly in-memory)
-RDF Stores:
+## RDF Stores:
+- Virtuoso
+- Stardog
 
-Virtuoso
-Stardog
-Wide Column Stores:
+## Wide Column Stores:
+- Apache Cassandra
+- HBase
 
-Apache Cassandra
-HBase
-Hybrid Databases:
-
-ArangoDB
-Couchbase
+## Hybrid Databases:
+- ArangoDB
+- Couchbase
