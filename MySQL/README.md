@@ -1,4 +1,4 @@
-# [Your Project Name] - MySQL Database Documentation
+# MySQL Database Documentation
 
 ## Overview
 
@@ -23,11 +23,6 @@ The SQL script `college_database.sql` defines the structure of the database, inc
 - `library`: Information about library books.
 - `exam_results`: Exam results of students.
 
-### Additional Tables
-
-- `additional_table_1`: [Description]
-- `additional_table_2`: [Description]
-- ...
 
 ## Sample Data
 
@@ -56,7 +51,4 @@ Contributions are welcome! If you have suggestions, improvements, or additional 
 
 ## License
 
-This project is licensed under the [Your License Name] License - see the [LICENSE](LICENSE) file for details.
-
----
-**Note:** Replace placeholders such as `[Your Project Name]`, `[Your Description]`, and others with your actual project details.
+This project is licensed under The Cobox Technologies License - visit the website for details.
