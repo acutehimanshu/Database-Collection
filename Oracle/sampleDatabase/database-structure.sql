@@ -129,11 +129,29 @@ INSERT INTO departments VALUES
 
 
 -- Inserting data into Instructors table
-INSERT INTO instructors VALUES (1, 'Professor', 'Smith', 'prof.smith@email.com', '555-123-4567');
-INSERT INTO instructors VALUES (2, 'Dr.', 'Jones', 'dr.jones@email.com', '555-987-6543');
+INSERT INTO instructors VALUES 
+  (1, 'Professor', 'Smith', 'prof.smith@email.com', '555-123-4567'),
+  (2, 'Dr.', 'Jones', 'dr.jones@email.com', '555-987-6543'),
+  (3, 'Ms.', 'Williams', 'ms.williams@email.com', '555-456-7890'),
+  (4, 'Professor', 'Brown', 'prof.brown@email.com', '555-789-0123'),
+  (5, 'Dr.', 'Johnson', 'dr.johnson@email.com', '555-234-5678'),
+  (6, 'Mr.', 'Martinez', 'mr.martinez@email.com', '555-678-9012'),
+  (7, 'Ms.', 'Taylor', 'ms.taylor@email.com', '555-345-6789'),
+  (8, 'Professor', 'Anderson', 'prof.anderson@email.com', '555-890-1234'),
+  (9, 'Dr.', 'Wilson', 'dr.wilson@email.com', '555-456-7890'),
+  (10, 'Mr.', 'Thomas', 'mr.thomas@email.com', '555-901-2345'),
+  (11, 'Ms.', 'Garcia', 'ms.garcia@email.com', '555-567-8901'),
+  (12, 'Professor', 'Rodriguez', 'prof.rodriguez@email.com', '555-123-4567'),
+  (13, 'Dr.', 'Lopez', 'dr.lopez@email.com', '555-789-0123'),
+  (14, 'Mr.', 'Lee', 'mr.lee@email.com', '555-234-5678'),
+  (15, 'Ms.', 'Harris', 'ms.harris@email.com', '555-678-9012'),
+  (16, 'Professor', 'Clark', 'prof.clark@email.com', '555-345-6789'),
+  (18, 'Mr.', 'Walker', 'mr.walker@email.com', '555-456-7890'),
+  (19, 'Ms.', 'King', 'ms.king@email.com', '555-901-2345'),
+  (20, 'Professor', 'Wright', 'prof.wright@email.com', '555-567-8901');
 -- Add more instructor records as needed
 
--- Inserting data into Enrollments table
+-- Inserting data into the Enrollments table
 -- Enrolling students into courses in the enrollments table
 INSERT INTO enrollments VALUES
 (1, 1, 101, TO_DATE('2023-09-01', 'YYYY-MM-DD')),
@@ -243,12 +261,52 @@ INSERT INTO enrollments VALUES
 -- Inserting data into Assignments table
 INSERT INTO assignments VALUES (1, 101, 1, 'Midterm Exam', 100, TO_DATE('2023-10-15', 'YYYY-MM-DD'));
 INSERT INTO assignments VALUES (2, 101, 2, 'Final Exam', 150, TO_DATE('2023-12-10', 'YYYY-MM-DD'));
--- Add more assignment records as needed
+INSERT INTO assignments VALUES (3, 102, 3, 'Lab Report 1', 80, TO_DATE('2023-11-05', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (4, 102, 3, 'Lab Report 2', 80, TO_DATE('2023-11-19', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (5, 102, 4, 'Project Proposal', 150, TO_DATE('2023-11-30', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (6, 103, 5, 'Homework 1', 100, TO_DATE('2023-09-20', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (7, 103, 5, 'Homework 2', 100, TO_DATE('2023-10-04', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (8, 103, 6, 'Midterm Exam', 150, TO_DATE('2023-10-20', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (9, 104, 7, 'Essay', 120, TO_DATE('2023-10-25', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (10, 104, 7, 'Presentation', 100, TO_DATE('2023-11-15', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (11, 105, 8, 'Problem Set 1', 80, TO_DATE('2023-09-25', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (12, 105, 8, 'Problem Set 2', 80, TO_DATE('2023-10-09', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (13, 105, 9, 'Midterm Exam', 150, TO_DATE('2023-10-30', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (14, 106, 10, 'Quiz 1', 50, TO_DATE('2023-10-02', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (15, 106, 10, 'Quiz 2', 50, TO_DATE('2023-10-16', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (16, 107, 11, 'Homework 1', 100, TO_DATE('2023-09-23', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (17, 107, 11, 'Homework 2', 100, TO_DATE('2023-10-07', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (18, 107, 12, 'Midterm Exam', 150, TO_DATE('2023-10-28', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (19, 108, 13, 'Research Paper', 200, TO_DATE('2023-11-10', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (20, 108, 14, 'Presentation', 100, TO_DATE('2023-11-25', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (21, 109, 15, 'Quiz 1', 50, TO_DATE('2023-10-05', 'YYYY-MM-DD'));
+INSERT INTO assignments VALUES (22, 109, 15, 'Quiz 2', 50, TO_DATE('2023-10-19', 'YYYY-MM-DD'));
+-- Inserting more data into Assignments table
+
 
 -- Inserting data into Grades table
 INSERT INTO grades VALUES (1, 1, 85);
 INSERT INTO grades VALUES (2, 1, 92);
 INSERT INTO grades VALUES (3, 1, 78);
+INSERT INTO grades VALUES (4, 1, 75);
+INSERT INTO grades VALUES (5, 1, 88);
+INSERT INTO grades VALUES (6, 1, 90);
+INSERT INTO grades VALUES (7, 1, 82);
+INSERT INTO grades VALUES (8, 1, 79);
+INSERT INTO grades VALUES (9, 1, 85);
+INSERT INTO grades VALUES (10, 1, 93);
+INSERT INTO grades VALUES (11, 1, 87);
+INSERT INTO grades VALUES (12, 1, 81);
+INSERT INTO grades VALUES (13, 1, 94);
+INSERT INTO grades VALUES (14, 1, 89);
+INSERT INTO grades VALUES (15, 1, 83);
+INSERT INTO grades VALUES (16, 1, 78);
+INSERT INTO grades VALUES (17, 1, 92);
+INSERT INTO grades VALUES (18, 1, 86);
+INSERT INTO grades VALUES (19, 1, 91);
+INSERT INTO grades VALUES (20, 1, 95);
+-- Continue adding grades for the remaining students
+
 -- Add more grade records as needed
 
 -- Inserting data into Departments_Courses table
