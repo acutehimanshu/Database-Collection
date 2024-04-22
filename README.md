@@ -4,7 +4,7 @@ Database Market Overview
 
 Below is a curated list of databases widely used in the market. Please note that the database landscape is dynamic, and new databases may emerge over time. Always check the latest information from reliable sources when researching databases for your specific needs.
 
-## Relational Databases:
+## Relational Databases: 
 - MySQL
 - PostgreSQL
 - Oracle Database
